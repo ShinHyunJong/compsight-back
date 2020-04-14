@@ -14,7 +14,7 @@ const trimArray = (array) => {
 
 export class ArticleService {
   public welcomeMessage(req: Request, res: Response) {
-    return res.status(200).send("Welcome to pokeAPI REST by Nya ^^");
+    return res.status(200).send("Welcome to Compsight");
   }
 
   public getAllArticle(req: Request, res: Response) {
