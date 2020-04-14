@@ -8,6 +8,9 @@
     "build": "tsc",
     "start": "tsc && nodemon"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "@types/cheerio": "^0.22.17",
     "@types/dotenv": "^8.2.0",
