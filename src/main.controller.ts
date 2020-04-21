@@ -13,5 +13,6 @@ export class Controller {
     this.app.route('/').get(this.articleService.welcomeMessage);
     this.app.route("/articles").get(this.articleService.getAllArticle);
     this.app.route("/article").post(this.articleService.addNewArticle);
+    this.app.route("/comments").get(this.articleService.getYoutubeComments);
   }
 }

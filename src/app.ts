@@ -7,8 +7,6 @@ require('dotenv').config();
 import { Controller } from './main.controller';
 
 
-
-
 class App {
   public app: Application;
   public dataController: Controller;
